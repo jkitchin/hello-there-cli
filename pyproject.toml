@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello-there-cli"
+version = "0.1.0"
+description = "A CLI that prints hello there with a named argument"
+requires-python = ">=3.9"
+
+[project.scripts]
+hello-there = "hello_there.cli:main"
