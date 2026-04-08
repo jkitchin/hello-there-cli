@@ -1,5 +1,7 @@
 # hello-there-cli
 
+![Tests](https://github.com/jkitchin/hello-there-cli/actions/workflows/tests.yml/badge.svg)
+
 A simple CLI that prints "hello there" with an optional named argument.
 
 ## Installation
