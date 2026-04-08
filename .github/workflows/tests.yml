@@ -23,5 +23,10 @@ jobs:
           pip install -e .
           pip install pytest
 
+      - name: Lint with ruff
+        run: |
+          pip install ruff
+          ruff check .
+
       - name: Run tests
         run: pytest tests/ -v
